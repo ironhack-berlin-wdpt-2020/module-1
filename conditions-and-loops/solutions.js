@@ -18,39 +18,39 @@ if (hacker1.length < hacker2.length) {
 
 // // LOOPS
 
-// let result = ""
+let result = ""
 
-// for (let i = 0; i < hacker1.length; i++) {
-//   console.log(` i : ${i}`)
-//   console.log(` hacker1[i] : ${hacker1[i]}`)  
-//   result += hacker1[i].toUpperCase() + " "
-//   console.log(` result : ${result}`)
-// }
+for (let i = 0; i < hacker1.length; i++) {
+  console.log(` i : ${i}`)
+  console.log(` hacker1[i] : ${hacker1[i]}`)  
+  result += hacker1[i].toUpperCase() + " "
+  console.log(` result : ${result}`)
+}
 
-// console.log(result)
-// console.log(hacker1)
+console.log(result)
+console.log(hacker1)
 
 
-// let reverseResult = ""
+let reverseResult = ""
 
-// for (let i = hacker1.length - 1; i >= 0; i = i - 1) {
-//   console.log(` i : ${i}`)
-//   console.log(` hacker1[i] : ${hacker1[i]}`)  
-//   reverseResult = reverseResult + hacker1[i]
-//   console.log(` result : ${reverseResult}`)
-// }
+for (let i = hacker1.length - 1; i >= 0; i = i - 1) {
+  console.log(` i : ${i}`)
+  console.log(` hacker1[i] : ${hacker1[i]}`)  
+  reverseResult = reverseResult + hacker1[i]
+  console.log(` result : ${reverseResult}`)
+}
 
-// console.log(reverseResult)
+console.log(reverseResult)
 
-// let shorterString;
-// if (hacker1.length < hacker2.length) {
-//   shorterString = hacker1
-// } else {
-//   shorterString = hacker2
-// }
+let shorterString;
+if (hacker1.length < hacker2.length) {
+  shorterString = hacker1
+} else {
+  shorterString = hacker2
+}
 
 if (hacker1 === hacker2) {
-  // just check if both are the same
+  // just check if both are the same, if they are don't run the loop below..
 }
 
 for (let i = 0; i < hacker1.length; i++) {
