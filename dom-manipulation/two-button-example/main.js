@@ -15,7 +15,7 @@ let onClickHandler = function (event) {
 
   let inputNumberEl = document.getElementsByClassName('myNumber')[0]
 
-  heading.innerText = "Giraffe " + Number(inputNumberEl.value) + 2
+  heading.innerText = "Giraffe " + Number(inputNumberEl.value + 2)
 
   let inputCheckEl = document.getElementsByClassName('myCheckbox')[0]
   alert(inputCheckEl.value)
